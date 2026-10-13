@@ -19,16 +19,3 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
----------------------------------------------------------------------------
-Scope of this license
-
-This license covers the code in this repository (the .py and .js files and the
-build files) written by UnluckyManDev.
-
-It does NOT cover the game or anything taken from it. The story, characters,
-names and artwork of 植物大战僵尸恐怖版 belong to its creators (Bilibili creator
-对不起贱笑了 and the TaoYuan team), and Plants vs. Zombies belongs to PopCap
-Games / Electronic Arts. The translations and redrawn images in source/data/ are
-fan-made translations of that work and are shared only so the game can be played
-in English.
