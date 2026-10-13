@@ -7,7 +7,7 @@ A fan-made English translation for the free Chinese fan game **植物大战僵�
 
 ## Download
 
-Get **PvZ Horror Edition - English v1.3.zip** from the [Releases page](../../releases/latest).
+Get the **.zip** from the [Releases page](../../releases/latest) (under *Assets*).
 
 ## Install (1 minute)
 
