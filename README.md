@@ -35,7 +35,7 @@ desktop shortcut, it closes by itself when you quit the game.
 
 Menus and buttons, the store, the almanac (every plant and zombie, with their stories), all 40 story diaries, radio
 broadcasts, chapter text, popups, banners (Ready... Set... PLANT!, FINAL WAVE...), difficulty and level labels, level
-modifiers, and 37 redrawn images with English text.
+modifiers, and 53 redrawn images with English text.
 
 Most text is translated by hand. Text that isn't in the translation yet is machine-translated once (needs internet;
 only the game's own text is sent) and remembered after that. You can turn this off in the app.
@@ -50,7 +50,14 @@ Your save is never changed, except by **Go to level...**, which backs it up firs
 %USERPROFILE%\AppData\LocalLow\TaoYuan\植物大战僵尸恐怖版\Save
 ```
 
-To undo a level jump: close the game, then rename the `.bak` file you want back to `YourName.json`.
+Each backup has the date and time added, e.g. `YourName.json.20261008-175300.bak` (8 Oct 2026, 17:53:00).
+To undo a level jump:
+
+1. Close the game.
+2. Delete or rename your current `YourName.json`.
+3. Rename the backup you want back to `YourName.json` (remove the date and `.bak`).
+
+You can delete old `.bak` files whenever you like; the game never uses them.
 
 ## Requirements
 
@@ -75,6 +82,12 @@ To undo a level jump: close the game, then rename the `.bak` file you want back 
 - `source/data/` holds the translations and the redrawn textures.
 - `source/pvz_english_app.py` is the one-window app that ties it together.
 
+### Build it yourself
+
+With Python 3.10 (64-bit) on Windows, run `source/build.bat`. It installs the packages from
+`source/requirements.txt` and builds `source/dist/PvZ Horror English.exe`. (Builds aren't byte-for-byte identical to
+the release, because PyInstaller adds timestamps, but the code is the same.)
+
 ## Credits
 
 - Original game: **植物大战僵尸恐怖版** by Bilibili creator **对不起贱笑了** and the TaoYuan team. The game is free and is
@@ -85,3 +98,10 @@ To undo a level jump: close the game, then rename the `.bak` file you want back 
 
 This is an unofficial fan translation, not affiliated with the game's creators or with PopCap/EA. It contains no
 game files.
+
+**To the game's creators:** if you'd like this taken down, please open an issue and I'll remove it.
+
+## License
+
+The code is [MIT licensed](LICENSE). The story, characters, names and artwork belong to the game's creators and to
+PopCap/EA; the translations and redrawn images are fan work shared so the game can be played in English.
