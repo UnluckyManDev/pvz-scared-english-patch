@@ -1,0 +1,46 @@
+{
+ "tmpSetText": {
+  "rva": "0x1c10e70",
+  "bytes": "48895c2408574883ec2080b9e8000000"
+ },
+ "uiSetText": {
+  "rva": "0x1fb5a00",
+  "bytes": "48895c2408574883ec20803deecd9b00"
+ },
+ "fastAlloc": {
+  "rva": "0x1043b00",
+  "bytes": "e99b2d26ffcccccccccccccccccccccc"
+ },
+ "decryptRvaString": {
+  "rva": "0xa28de0",
+  "bytes": "48895c240848896c2410488974241848"
+ },
+ "setText1a": {
+  "rva": "0x1c05ed0",
+  "bytes": "48895c2408574883ec30488bda488bf9"
+ },
+ "setText1b": {
+  "rva": "0x1c05d60",
+  "bytes": "4883ec384885d275054533c9eb04448b"
+ },
+ "setText2a": {
+  "rva": "0x1c061d0",
+  "bytes": "48895c241048896c2418565741564883"
+ },
+ "setText2b": {
+  "rva": "0x1c064c0",
+  "bytes": "488bc44883ec680f57db48c740e80000"
+ },
+ "setText3a": {
+  "rva": "0x1c05e90",
+  "bytes": "488bc44883ec680f57c048c740e80000"
+ },
+ "setText3b": {
+  "rva": "0x1c06510",
+  "bytes": "48895c240848896c2410488974241857"
+ },
+ "setText3c": {
+  "rva": "0x1c06500",
+  "bytes": "48c744242800000000e9d2f6ffffcccc"
+ }
+}

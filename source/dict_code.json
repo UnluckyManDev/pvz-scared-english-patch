@@ -1,0 +1,169 @@
+{
+ "exact": {
+  "序章": "Prologue",
+  "时钟如期触碰零点，漫长的倒计时迎来收尾，潜藏于土地之下的低语，随之愈发清晰。\n人们总以为零点代表一日的落幕，却不曾知晓，钟声敲响的那一刻，也同时敲开了人类世界的末日！": "The clock struck midnight right on time. The long countdown came to an end, and the whispers hidden beneath the earth grew ever clearer.\nPeople always think midnight marks the end of a day, never knowing that the moment the bell tolled, it also opened the door to the end of the human world!",
+  "噩梦模式（未解锁）": "Nightmare (Locked)",
+  "噩梦模式": "Nightmare",
+  "提示": "Notice",
+  "暂未开启": "Not available yet",
+  "默认用户": "Default User",
+  "临阵脱逃": "Cold Feet",
+  "优势在我": "The Advantage Is Mine",
+  "虾兵蟹将": "Small Fry",
+  "兵强马壮": "Strong Army",
+  "僵尸暴动": "Zombie Riot",
+  "太刺眼了": "Too Bright!",
+  "脑子在哪": "Where's the Brain?",
+  "铲子禁用": "Shovel Disabled",
+  "幸运降低": "Luck Down",
+  "幸运提升": "Luck Up",
+  "速度降低": "Speed Down",
+  "速度提升": "Speed Up",
+  "魔法降低": "Magic Down",
+  "魔法提升": "Magic Up",
+  "体魄降低": "Physique Down",
+  "体魄提升": "Physique Up",
+  "力量降低": "Strength Down",
+  "力量提升": "Strength Up",
+  "阳光普照": "Sunshine for All",
+  "和平之路": "Road to Peace",
+  "无限小推车": "Infinite Lawn Mowers",
+  "放生小推车": "Lawn Mowers Set Free",
+  "修复大量bug": "Fixed lots of bugs",
+  "增加载入游戏速度": "Faster game loading",
+  "处刑者": "Executioner",
+  "确定": "OK",
+  "取消": "Cancel",
+  "返回": "Back",
+  "关闭": "Close",
+  "金币不足": "Not Enough Coins",
+  "购买": "Buy",
+  "已购买": "Purchased",
+  "已拥有": "Owned",
+  "解锁": "Unlock",
+  "未解锁": "Locked",
+  "已解锁": "Unlocked",
+  "选择": "Select",
+  "继续": "Continue",
+  "开始": "Start",
+  "重新开始": "Restart",
+  "主菜单": "Main Menu",
+  "设置": "Settings",
+  "商店": "Shop",
+  "图鉴": "Almanac",
+  "存档": "Saves",
+  "活动": "Events",
+  "退出": "Quit",
+  "制作组": "Credits",
+  "版本通知": "Patch Notes",
+  "剧情模式": "Story Mode",
+  "生存模式": "Survival Mode",
+  "娱乐模式": "Mini-Games",
+  "敬请期待": "Coming soon",
+  "上一页": "Previous Page",
+  "下一页": "Next Page",
+  "自动:关": "Auto: Off",
+  "自动:开": "Auto: On",
+  "自动：关": "Auto: Off",
+  "自动：开": "Auto: On",
+  "跳过": "Skip",
+  "进入选卡": "Choose Cards",
+  "开始游戏": "Start Game",
+  "测试关卡": "Test Level",
+  "冒险关卡": "Adventure Level",
+  "已售罄": "Sold Out",
+  "售罄": "Sold Out",
+  "购物车": "Cart",
+  "结账": "Checkout",
+  "货柜": "Store",
+  "购买成功": "Purchase successful",
+  "自定义模式": "Custom",
+  "简单模式": "Easy",
+  "正常模式": "Normal",
+  "困难模式": "Hard"
+ },
+ "patterns": [
+  [
+   "余额[:：]\\s*\\$(\\d+)",
+   "Balance: $$$1"
+  ],
+  [
+   "花费[:：]\\s*\\$(\\d+)",
+   "Cost: $$$1"
+  ],
+  [
+   "(.+)的房子",
+   "$1's House"
+  ],
+  [
+   "噩梦模式尚未解锁\\n通关全部 ?(\\d+) ?关后解锁",
+   "Nightmare Mode is locked\nBeat all $1 levels to unlock it"
+  ],
+  [
+   "第(\\d+)天",
+   "Day $1"
+  ],
+  [
+   "第(\\d+)页",
+   "Page $1"
+  ],
+  [
+   "第(\\d+)波",
+   "Wave $1"
+  ],
+  [
+   "第(\\d+)关",
+   "Level $1"
+  ],
+  [
+   "关卡(\\d+)-(\\d+)",
+   "Level $1-$2"
+  ],
+  [
+   "序章-(\\d+)",
+   "Prologue-$1"
+  ],
+  [
+   "已调整为：简单模式\n出怪数量×([\\d.]+)(\\s+)僵尸生命（含护甲）×([\\d.]+)\n僵尸攻击×([\\d.]+)(\\s+)阳光获取×([\\d.]+)\n植物价格×([\\d.]+)(\\s+)植物冷却×([\\d.]+)",
+   "Difficulty set to: Easy\nZombie count ×$1$2Zombie HP (incl. armor) ×$3\nZombie attack ×$4$5Sun gain ×$6\nPlant cost ×$7$8Plant cooldown ×$9"
+  ],
+  [
+   "已调整为：正常模式\n出怪数量×([\\d.]+)(\\s+)僵尸生命（含护甲）×([\\d.]+)\n僵尸攻击×([\\d.]+)(\\s+)阳光获取×([\\d.]+)\n植物价格×([\\d.]+)(\\s+)植物冷却×([\\d.]+)",
+   "Difficulty set to: Normal\nZombie count ×$1$2Zombie HP (incl. armor) ×$3\nZombie attack ×$4$5Sun gain ×$6\nPlant cost ×$7$8Plant cooldown ×$9"
+  ],
+  [
+   "已调整为：困难模式\n出怪数量×([\\d.]+)(\\s+)僵尸生命（含护甲）×([\\d.]+)\n僵尸攻击×([\\d.]+)(\\s+)阳光获取×([\\d.]+)\n植物价格×([\\d.]+)(\\s+)植物冷却×([\\d.]+)",
+   "Difficulty set to: Hard\nZombie count ×$1$2Zombie HP (incl. armor) ×$3\nZombie attack ×$4$5Sun gain ×$6\nPlant cost ×$7$8Plant cooldown ×$9"
+  ],
+  [
+   "已调整为：噩梦模式\n出怪数量×([\\d.]+)(\\s+)僵尸生命（含护甲）×([\\d.]+)\n僵尸攻击×([\\d.]+)(\\s+)阳光获取×([\\d.]+)\n植物价格×([\\d.]+)(\\s+)植物冷却×([\\d.]+)",
+   "Difficulty set to: Nightmare\nZombie count ×$1$2Zombie HP (incl. armor) ×$3\nZombie attack ×$4$5Sun gain ×$6\nPlant cost ×$7$8Plant cooldown ×$9"
+  ],
+  [
+   "已调整为：自定义模式\n出怪数量×([\\d.]+)(\\s+)僵尸生命（含护甲）×([\\d.]+)\n僵尸攻击×([\\d.]+)(\\s+)阳光获取×([\\d.]+)\n植物价格×([\\d.]+)(\\s+)植物冷却×([\\d.]+)",
+   "Difficulty set to: Custom\nZombie count ×$1$2Zombie HP (incl. armor) ×$3\nZombie attack ×$4$5Sun gain ×$6\nPlant cost ×$7$8Plant cooldown ×$9"
+  ]
+ ],
+ "terms": {
+  "序章": "Prologue",
+  "噩梦": "Nightmare",
+  "困难": "Hard",
+  "简单": "Easy",
+  "正常": "Normal",
+  "普通": "Normal",
+  "力量": "Strength",
+  "体魄": "Physique",
+  "魔法": "Magic",
+  "速度": "Speed",
+  "幸运": "Luck",
+  "提升": " Up",
+  "降低": " Down",
+  "金币": "Coins",
+  "阳光": "Sun",
+  "冷却": "Cooldown",
+  "血量": "HP",
+  "攻击": "Attack",
+  "秒": "s"
+ },
+ "templates": {}
+}

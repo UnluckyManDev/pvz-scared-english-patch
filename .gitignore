@@ -1,0 +1,7 @@
+# never commit: personal translation cache (has the player's name), logs, builds
+live_translation_cache.json
+*.log
+build/
+dist/
+__pycache__/
+*.spec
